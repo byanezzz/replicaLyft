@@ -1,92 +1,37 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+# Maquetado web de la pagina Lyft con HTML & CSS_
 
-***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+- Encontrarás un archivo base `index.html` el cual contiene la estructura HTML del proyecto.
 
-## Flujo de trabajo
+- Una carpeta `css` donde tendrás un archivo  `main.css` el cual contiene clases reutilizables, y clases específicas para ciertas secciones.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+- Además una carpeta `assets` donde se encuentra la carpeta `images` en la cual están alojadas todas las imágenes usadas en el proyecto.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+- Por otro lado se tiene una carpeta `font-awesome-4.7.0` con clases y estilos extraidos de la web fontAwesome para los íconos de la página.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+## Estructura del proyecto
+- Se tiene un `header`, el cual está compuesto por un `nav` en donde se muestra el menú de navegación, constituido por un logo y una lista desordenada con links a secciones posteriores. También forma parte del header, un formulario de registo e inicio de sesión, realizado con un form que a su vez contiene label e inputs referenciando a la información que Lyft requiere para tener contacto con el usuario.
+- Seguidamente hay una sección `home` donde se se da una pequeña idea de lo que trata el negocio de la web.
+- Luego,se muestran tres secciónes con información referente a la empresa (Lyft) con videos explicativos respecto a dicha información.
+- Por último, un apartado o `footer` donde se colocan distintos enlaces, entre los que se encuentran links referentes al Login , Partners y Learn, por otro lado se tienen enlaces para descargar la aplicación lyft a distintos sistemas operativos, las redes sociales de Lyft usando una lista `ul`  y los derechos de autor.
 
-## Objetivo
+## Estilos del proyecto
+- Por un lado, se cuenta con clases genéricas las cuales permiten dar el mismo estilo a diferentes partes del proyecto: 
+    - .mb-0: Quitar margen inferior
+    - .mt-0: Quitar margen superior 
+    - .m-0: Quitar todos los márgenes
+    - .text-uppercase: Transformar textos a mayúsculas
+    - .inline-block: Convertir elementos a inline-block
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+- De igual forma se tienen clases que dan estilos específicos a secciones y/o elementos del proyecto.
 
-![Lyft Website](docs/fullpage.png)
+  * Esta web utiliza 1 tipografía: `Montserrat`
 
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza la tipografía `Montserrat`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+  * La paleta de colores usados son los siguientes: 
+    - Botones, hover: `#FF00BF`
+    - Fondo de `footer`: `#333447`
+    - Título del formulario: `#352384`
+    - Texto del formulario: `#728099`
+    - Gradiente morado: `linear-gradient(#76278F, #2B1E66);
